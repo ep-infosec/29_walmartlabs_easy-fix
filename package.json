@@ -1,0 +1,31 @@
+{
+  "name": "easy-fix",
+  "version": "3.1.0",
+  "description": "easily capture & replay mock test data",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js tests.js",
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:walmartlabs/easy-fix.git"
+  },
+  "keywords": [
+    "test",
+    "mock",
+    "fixture"
+  ],
+  "author": "Dan Rathbone (rathbone1200cc)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "6.0.4",
+    "chai": "3.5.0",
+    "eslint": "1.10.3",
+    "eslint-config-defaults": "9.0.0",
+    "eslint-plugin-filenames": "0.2.0",
+    "mocha": "2.5.3",
+    "sinon": "1.17.3"
+  }
+}
